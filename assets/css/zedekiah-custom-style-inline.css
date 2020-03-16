@@ -7,7 +7,7 @@
 }
 
 /* .back-to-top {
-    background: #ff613d url(http://www.stjohns-minden.org/wp-content/themes/zedekiah/images/svg/back-to-top-arrow.svg) no-repeat center center;
+    background: #ff613d url({{ site.url }}/wp-content/themes/zedekiah/images/svg/back-to-top-arrow.svg) no-repeat center center;
     height: 40px;
     width: 40px;
 } */

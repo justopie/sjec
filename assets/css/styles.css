@@ -1198,7 +1198,7 @@ textarea.form-control {
     position: absolute;
     width: 15px;
     height: 90px;
-    background: url("/web/20190202002422im_/http://www.stjohns-minden.org/wp-content/themes/zedekiah/images/timeline-dot.jpg");
+    background: url("{{ site.url }}/wp-content/themes/zedekiah/images/timeline-dot.jpg");
     left: 50%;
     top: 50%;
     margin-left: -4px;
@@ -1214,7 +1214,7 @@ body .wpb_content_element{
     margin: 0;
 }
 body .wpb_accordion .wpb_accordion_wrapper .ui-state-active .ui-icon{
-    background-image: url("/web/20190202002422im_/http://www.stjohns-minden.org/wp-content/themes/zedekiah/images/toggle_close.png");
+    background-image: url("{{ site.url }}/wp-content/themes/zedekiah/images/toggle_close.png");
 }
 #primary .main-content ul li[role="tab"]:not(.rotate45) {
     margin: 0;
@@ -5112,7 +5112,7 @@ body.layout_boxed  {
     background: rgba(255, 255, 255, 1) none repeat scroll 0 0;
 }
 .back-to-top {
-  background: #ff613d url(/web/20190202002422im_/http://www.stjohns-minden.org/wp-content/themes/zedekiah/images/svg/back-to-top-arrow.svg) no-repeat center center;
+  background: #ff613d url({{ site.url }}/wp-content/themes/zedekiah/images/svg/back-to-top-arrow.svg) no-repeat center center;
   height: 40px;
   width: 40px;
 }

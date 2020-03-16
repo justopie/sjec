@@ -271,7 +271,7 @@ header .header-nav-actions {
 .fixed-sidebar-menu-overlay.visible {
     opacity: 1;
     visibility: visible;
-    cursor: url('/web/20190207124241im_/http://www.stjohns-minden.org/wp-content/themes/zedekiah/images/burger-x-close.png'),auto;
+    cursor: url('/web/20190207124241im_/{{ site.url }}/wp-content/themes/zedekiah/images/burger-x-close.png'),auto;
 }
 .fixed-sidebar-menu .widget:last-child .sidebar-share-social-links {
     margin-bottom: 0;
@@ -1481,7 +1481,7 @@ body #navbar .menu-item:hover > a {
 #navbar .menu-item > a {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
     display: block;
-    font-size: 14px;
+    font-size: 2rem /* 14px */;
     line-height: 35px;
     font-weight: bold;
     text-transform: inherit;

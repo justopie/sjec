@@ -13,8 +13,8 @@ website:   	http://www.themepunch.com
 
 @font-face {
     font-family: revicons;
-    src: url(http://www.stjohns-minden.org/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.eot?5510888);
-    src: url(http://www.stjohns-minden.org/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.eot?5510888#iefix) format('embedded-opentype'), url(http://www.stjohns-minden.org/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.woff?5510888) format('woff'), url(http://www.stjohns-minden.org/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.ttf?5510888) format('truetype'), url(http://www.stjohns-minden.org/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.svg?5510888#revicons) format('svg');
+    src: url({{ site.url }}/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.eot?5510888);
+    src: url({{ site.url }}/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.eot?5510888#iefix) format('embedded-opentype'), url({{ site.url }}/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.woff?5510888) format('woff'), url({{ site.url }}/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.ttf?5510888) format('truetype'), url({{ site.url }}/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.svg?5510888#revicons) format('svg');
     font-weight: 400;
     font-style: normal
 }

@@ -447,7 +447,7 @@ p {
 	position: absolute;
 	width: 15px;
 	height: 90px;
-	background: url("/web/20190208222853im_/http://www.stjohns-minden.org/wp-content/themes/zedekiah/images/timeline-dot.jpg");
+	background: url("/web/20190208222853im_/{{ site.url }}/wp-content/themes/zedekiah/images/timeline-dot.jpg");
 	left: 50%;
 	top: 50%;
 	margin-left: -4px;
@@ -859,7 +859,7 @@ body .comment-list .heading-bottom::after{
 .sidebar-content h3#reply-title::after,
 .sidebar-content h2.heading-bottom::after,
 .sidebar-content .widget-title::after {
-    background-image: url("/web/20190208222853im_/http://www.stjohns-minden.org/wp-content/themes/zedekiah/images/sidebar-pattern.png");
+    background-image: url("/web/20190208222853im_/{{ site.url }}/wp-content/themes/zedekiah/images/sidebar-pattern.png");
     background-repeat: repeat;
     background-color: transparent;
     content: "";
