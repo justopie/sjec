@@ -289,6 +289,26 @@ footer .footer h1.widget-title, footer .footer h3.widget-title, footer .footer .
     opacity: 1;
 }
 
+
+div.bubble_description h1 {
+    font-size: 2rem;
+}
+
+span.cancelled {
+    font-weight: bold;
+    color: #f00;
+}
+p.cancelled span {
+    text-decoration: line-through;
+    color: #f00;
+    font-weight: bold;
+}
+p.cancelled span strong {
+    color: rgb(69, 70, 70) !important;
+}
+p.cancelled span.cancelled {
+    text-decoration: none;
+}
 /* [ON BIG SCREEN] */
 
 /* Wrapper */
