@@ -29,3 +29,8 @@ img.page_img {
   float: right;
   margin-left: 5px;
 }
+
+h2.smallcaps {
+  font-size: 2rem;
+  font-variant: small-caps;
+}
