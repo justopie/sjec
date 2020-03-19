@@ -4,9 +4,28 @@
   font-weight: 400;
   src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0e.ttf) format('truetype');
 }
+
 @font-face {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   src: local('Poppins Regular'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v5/pxiEyp8kv8JHgFVrJJfedw.ttf) format('truetype');
+}
+
+.footer-top h1 {
+  font-size: 2rem;
+}
+
+.footer-top ul {
+  list-style: none;
+}
+
+.footer-top .address {
+  color: #fff;
+}
+
+img.page_img {
+  max-width: 20%;
+  float: right;
+  margin-left: 5px;
 }
